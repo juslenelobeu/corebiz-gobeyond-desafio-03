@@ -22,7 +22,9 @@ export default function Items({ content }: AppProps) {
       <div className="tab__content">
         {
           content[item].items.map(({ image, link, title }: any, index: number) => (
-            <h3 key={index} className="title">{title}</h3>
+            <a href={link} target="_blank" rel="noopener noreferrer" className="tab__content-card" style={{ backgroundImage: `url(${image})` }}>
+              <h3 key={index} className="tab__content-title">{title}</h3>
+            </a>
           ))
         }
       </div>

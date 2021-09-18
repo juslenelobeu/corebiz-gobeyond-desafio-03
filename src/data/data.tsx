@@ -8,8 +8,9 @@ export const data = {
   },
   contact: {
     whatsapp: "https://wa.me/5511986286224?text=Contato%20via%20portfolio",
-    phone: "11986286224",
-    email: "juslenelobeu@gmail.com"
+    github: "https://github.com/juslenelobeu",
+    linkedin: "https://www.linkedin.com/in/juslenelobeu/",
+    dribbble: "https://dribbble.com/juslenelobeu",
   },
   content: [
     {
@@ -51,7 +52,7 @@ export const data = {
           title: "Gestão de Cadastro - Versão React",
         },
         {
-          image: "https://github.com/juslenelobeu/gama_academy-desafio-03-vtexio/raw/master/screenshot.jpeg?raw=true",
+          image: "https://raw.githubusercontent.com/juslenelobeu/gama_academy-desafio-03-vtexio/master/screenshot.jpeg?token=AG3WEE2T3AZSSVUMBH7POPTBIYW5E",
           link: "https://github.com/juslenelobeu/gama_academy-desafio3-vtexio",
           title: "Desafio #3 - Gama Academy",
         },
