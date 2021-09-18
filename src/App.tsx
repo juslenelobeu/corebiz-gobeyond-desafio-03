@@ -4,13 +4,15 @@ import Header from './components/Header';
 import Items from './components/Items';
 import { data } from './data/data'
 
+import "./styles/_global.scss";
+
 function App() {
   return (
-    <>
-      <Header />
+    <div className="container">
+      <Header {...data.user} />
       <Contact />
       <Items />
-    </>
+    </div>
   );
 }
 
