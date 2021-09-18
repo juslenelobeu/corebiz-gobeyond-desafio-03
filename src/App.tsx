@@ -11,7 +11,7 @@ function App() {
     <div className="container">
       <Header {...data.user} />
       <Contact {...data.contact} />
-      <Items />
+      <Items content={data.content} />
     </div>
   );
 }

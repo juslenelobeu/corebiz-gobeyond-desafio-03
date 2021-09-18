@@ -1,0 +1,38 @@
+@import '../../styles/colors';
+
+.tab {
+  background-color: $color-black-90;
+  border-radius: 10px;
+  margin: 2rem auto;
+  
+  .tab__item {
+    padding: 1rem;
+    background: transparent;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: $color-black-50;
+    transition: all 0.5s;
+
+    .tab__icon {
+      font-size: 1.2rem;
+      vertical-align: middle;
+    }
+    
+    .tab__name {
+      vertical-align: middle;
+      margin-left: .5rem;
+      font-weight: 600;
+      font-size: .875rem;
+    }
+
+    &:hover {
+      background-color: $color-black-80;
+    }
+
+    &.tab__item--active {
+      background-color: $color-primary;
+      color: $color-white;
+    }
+  }
+}
