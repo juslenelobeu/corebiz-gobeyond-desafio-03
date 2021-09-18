@@ -1,4 +1,6 @@
-.header {
+  @import "../../styles/colors";
+
+  .header {
   max-width: 1280px;
   height: 220px;
   display: flex;
@@ -17,12 +19,13 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    border: 5px solid #fff;
+    border: 5px solid $color-white;
     margin-top: 170px;
   }
 
   .header__name {
     font-size: 1.25rem;
+    color: $color-primary;
   }
 
   .header__description {

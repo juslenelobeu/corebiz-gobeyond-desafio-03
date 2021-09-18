@@ -7,13 +7,13 @@ export const data = {
     description: "Front-end development",
   },
   contact: {
-    whatsapp: "",
-    phone: "",
-    email: ""
+    whatsapp: "https://wa.me/5511986286224?text=Contato%20via%20portfolio",
+    phone: "11986286224",
+    email: "juslenelobeu@gmail.com"
   },
   content: [
     {
-      tab: "Tab 1",
+      tab: "UI/UX",
       items: [
         {
           image: "url",
@@ -33,7 +33,7 @@ export const data = {
       ],
     },
     {
-      tab: "Tab 2",
+      tab: "Front-end",
       items: [
         {
           image: "url",
