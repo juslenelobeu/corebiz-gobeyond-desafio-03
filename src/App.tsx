@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
       <Header {...data.user} />
-      <Contact />
+      <Contact {...data.contact} />
       <Items />
     </div>
   );

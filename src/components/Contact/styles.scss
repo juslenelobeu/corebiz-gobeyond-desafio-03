@@ -1,0 +1,28 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+
+  width: 100%;
+  max-width: 360px;
+
+  position: static;
+  margin-top: 8rem;
+
+  .contact__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: .2rem;
+
+    text-decoration: none;
+    color: black;
+    .contact__icon {
+      font-size: 2rem;
+    }
+    .contact__name {
+      font-size: .8rem;
+      font-weight: 600;
+    }
+  }
+}
