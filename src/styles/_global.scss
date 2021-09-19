@@ -21,8 +21,13 @@ body {
     height: auto;
   }
 }
-@media (max-width: 768px) {
+@media (max-height: 830px) {
   .container {
     gap: 2rem;
+  }
+}
+@media (max-height: 780px) {
+  .container {
+    height: auto;
   }
 }

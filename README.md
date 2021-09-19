@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+<p align="center">
+ <img src="https://github.com/juslenelobeu/corebiz-gobeyond-desafio-02/raw/master/assets/images/logo-gobeyond.png" width="400" alt="Project logo">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">Desafio 03 - Go Beyond | Corebiz</h3>
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 👀 Preview
+![Screenshot desktop](./screenshot.jpeg)
 
-### `yarn start`
+## 📝 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [About](#about)
+- [Features](#features)
+- [Deployment](#deployment)
+- [Authors](#authors)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧐 About <a name = "about"></a>
 
-### `yarn test`
+Criar uma homepage de portfolio com base no layout apresentado pelo mentor [Miguel Rosa](https://github.com/miguel-rosa) no [XD](https://xd.adobe.com/view/37061811-e3ad-4675-8ef5-d94bd7f2d4d6-6255/screen/e7c84a8a-2e81-45fd-91bd-1688c5be908b/specs/) e [link vercel](https://gobeyond.vercel.app/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### ✅ I learned
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Foi muito bacana fazer esse desafio, pois consegui criar da forma como eu desejava, utilizando **TypeScript** no **React**, assim pude estudar um pouco mais sobre as tipagens e suas aplicações nas `props`. Também, para esse desafio, foi utilizado com uma forma bem interessante de buscar dados para serem percorridos e exibidos conforme a necessidade do `componente`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+No **CSS** eu pude abusar um pouco mais de animações e efeito de `:hover` para deixar o visual mais interessante e interativo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features <a name = "features"></a>
 
-### `yarn eject`
+- [x] Dados percorridos e exibidos no site com base em um array de nome `data` localizado em `./src/data/data.tsx`.
+- [x] Listagem de dados de contato aom a inclusão de ícones de referência 
+- [x] Menu tab listando conteúdo com base em sua referência, buscada do arquivo `data` e exibido através da utilização do método `.map()`
+- [x] Listagem de card contendo uma imagem preview, título e link para acessar o conteúdo descrito.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 🚀 Deployment <a name = "deployment"></a>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Link Github Pages: [preview](https://juslenelobeu.github.io/corebiz-gobeyond-desafio-02/)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## ⛏️ Built Using <a name = "built_using"></a>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- [React](https://pt-br.reactjs.org/) - Library
+- [TypeScript](https://www.typescriptlang.org/pt/) - Types
+- [Sass](https://sass-lang.com/) - Styles
+- [Font Awesome](https://fontawesome.com/) - Ícones
 
-## Learn More
+## ✍️ Authors <a name = "authors"></a>
+<a href="https://juslenelobeudesigner.com.br/">
+  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/28795411?v=4" width="100px" alt=""/>
+  <br />
+  <sub><b>Juslene Lobeu</b>👩🏻‍💻</sub>
+</a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Feito com&ensp;❤️&ensp;por Juslene Lobeu&ensp;👋🏽&ensp;Entre em contato!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+[![Web Site](https://img.shields.io/badge/-Juslene%20Lobeu-purple?style=flat-square&logo=Web&logoColor=white&link=https://juslenelobeudesigner.com.br/)](https://juslenelobeudesigner.com.br/) 
+[![Linkedin Badge](https://img.shields.io/badge/-Juslene%20Lobeu-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/juslenelobeu/)](https://www.linkedin.com/in/kjuslenelobeu/) 
+[![Gmail Badge](https://img.shields.io/badge/-juslenelobeu@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:juslenelobeu@gmail.com)](mailto:juslenelobeu@gmail.com)
