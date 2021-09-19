@@ -52,7 +52,7 @@ export const data = {
           title: "Gestão de Cadastro - Versão React",
         },
         {
-          image: "https://raw.githubusercontent.com/juslenelobeu/gama_academy-desafio-03-vtexio/master/screenshot.jpeg?token=AG3WEE2T3AZSSVUMBH7POPTBIYW5E",
+          image: "https://github.com/juslenelobeu/gama_academy-desafio3-vtexio/blob/master/screenshot.jpeg?raw=true",
           link: "https://github.com/juslenelobeu/gama_academy-desafio3-vtexio",
           title: "Desafio #3 - Gama Academy",
         },

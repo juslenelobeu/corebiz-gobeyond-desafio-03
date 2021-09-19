@@ -1,18 +1,33 @@
 @import '../../styles/colors';
 
 .tab {
-  background-color: $color-black-90;
-  border-radius: 10px;
-  margin: 2rem auto;
+  background-color: $current-line;
+  border-radius: .5rem;
+  max-width: 95%;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
   
   .tab__item {
     padding: 1rem;
     background: transparent;
     border: none;
-    border-radius: 10px;
     cursor: pointer;
-    color: $color-black-50;
-    transition: all 0.5s;
+    color: $foreground;
+    transition: all 0.5s ease-in-out;
+    white-space: nowrap;
+    
+    &:hover {
+      background-color: $pink;
+      color: $background;
+      border-radius: 0;
+    }
 
     .tab__icon {
       font-size: 1.2rem;
@@ -25,69 +40,92 @@
       font-weight: 600;
       font-size: .875rem;
     }
-
-    &:hover {
-      background-color: $color-black-80;
-    }
-
+    
     &.tab__item--active {
-      background-color: $color-primary;
-      color: $color-white;
+      background-color: $pink;
+      color: $background;
+      
+      &:hover {
+        background-color: $purple;
+      }
     }
   }
 }
 
 .tab__content {
+  width: 95%;
   max-width: 1280px;
-  display: flex;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
-
-  .tab__content-title {
-    color: $color-white;
-    font-size: 1rem;
-    font-weight: 500;
-    z-index: 1;
-  }
-
+  
   .tab__content-card {
     position:relative;
-    width: 308px;
+    width: 100%;
+    max-width: 308px;
     height: 220px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     display: flex;
     align-items: flex-end;
-    padding: 15px;
-    border-radius: 10px;
-    text-decoration:none;
-    transition: transform .2s ease-in-out;
-    overflow: hidden;animation:fadeInUp .6s;
-    
-    &::after {
-      content: linear-gradient(transparent,rgba(0,0,0,.5) 80%,rgba(0,0,0,.8));
-      position: absolute;
+    justify-content: center;
+    border-radius: .5rem;
+    text-decoration: none;
+    overflow: hidden;
+    animation: fadeInUp .6s;
+    transition: all .5s ease-in-out;
+
+    .tab__content-title {
       width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0
+      color: $foreground;
+      font-size: .8rem;
+      font-weight: 600;
+      text-align: center;
+      z-index: 1;
+      background-color: $current-line;
+      padding: .5rem;
+      transition: all .5s ease-in-out;
+      vertical-align: middle;
     }
 
     &:hover {
-      transform:translateY(-10px);
+      transform: translateY(-0.625rem);
+      
+      .tab__content-title {
+        transform: translateY(4rem);
+      }
 
       &::after {
-        content: linear-gradient(transparent,hsla(270, 50%, 40%, 0.6) 80%,hsla(270, 50%, 40%, 0.9));
+        content: linear-gradient(transparent, $purple 70%, $purple);
       }
     }
   }
+
   @keyframes fadeInUp{
-    0%{
+    0% {
       opacity:0;
-      transform: translateY(20px)
+      transform: translateY(1.25rem)
     } to {
       opacity:1;
-      transform:translateY(0)
+      transform: translateY(0)
     }
+  }
+}
+
+@media (max-width: 1024px) {
+  .tab__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .tab__content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 1024px) {
+  .tab__content {
+    margin-bottom: 5rem;
   }
 }

@@ -1,14 +1,19 @@
-@import "../../styles/colors";
+@import '../../styles/colors';
+
 .contact {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-
   width: 100%;
-  max-width: 360px;
-
-  position: static;
-  margin-top: 8rem;
+  background-color: $background;
+  
+  .contact__links {
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+    padding: .5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+  }
 
   .contact__link {
     display: flex;
@@ -17,19 +22,38 @@
     gap: .2rem;
 
     text-decoration: none;
-    color: $color-black;
+    color: $purple;
 
     .contact__icon {
       font-size: 1.5rem;
+      transition: all .8s ease-in-out
     }
     
     .contact__name {
       font-size: .8rem;
       font-weight: 600;
+      color: $comment;
+      transition: all .3s ease-in-out;
     }
     
     &:hover {
-      color: $color-primary;
+      color: $pink;
+
+      .contact__icon {
+        transform: rotate(-360deg);
+      }
+
+      .contact__name {
+        transform: translateX(.5rem);
+      }
     }
+  }
+}
+
+@media (max-width: 576px) {
+  .contact {
+    position: fixed;
+    bottom: 0;
+    z-index: 2;
   }
 }
