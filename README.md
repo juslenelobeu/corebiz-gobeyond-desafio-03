@@ -23,20 +23,20 @@ Criar uma homepage de portfolio com base no layout apresentado pelo mentor [Migu
 
 ### ✅ I learned
 
-Foi muito bacana fazer esse desafio, pois consegui criar da forma como eu desejava, utilizando **TypeScript** no **React**, assim pude estudar um pouco mais sobre as tipagens e suas aplicações nas `props`. Também, para esse desafio, foi utilizado com uma forma bem interessante de buscar dados para serem percorridos e exibidos conforme a necessidade do `componente`.
+Foi muito bacana fazer esse desafio, pois consegui criar da forma como eu desejava, utilizando **TypeScript** no **React**, assim pude estudar um pouco mais sobre as tipagens e suas aplicações nas `props`. Também, para esse desafio, foi utilizado uma forma bem interessante de buscar dados de outro arquivo para serem percorridos e exibidos conforme a necessidade do `componente`.
 
 No **CSS** eu pude abusar um pouco mais de animações e efeito de `:hover` para deixar o visual mais interessante e interativo.
 
 ## ✨ Features <a name = "features"></a>
 
 - [x] Dados percorridos e exibidos no site com base em um array de nome `data` localizado em `./src/data/data.tsx`.
-- [x] Listagem de dados de contato aom a inclusão de ícones de referência 
+- [x] Listagem de dados de contato com a inclusão de ícones de referência 
 - [x] Menu tab listando conteúdo com base em sua referência, buscada do arquivo `data` e exibido através da utilização do método `.map()`
 - [x] Listagem de card contendo uma imagem preview, título e link para acessar o conteúdo descrito.
 
 ## 🚀 Deployment <a name = "deployment"></a>
 
-Link Github Pages: [preview](https://juslenelobeu.github.io/corebiz-gobeyond-desafio-02/)
+Link Vercel: [preview](https://corebiz-gobeyond-desafio-03.vercel.app/)
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 
