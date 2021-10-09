@@ -75,6 +75,16 @@ export const data = {
           image: "https://github.com/juslenelobeu/corebiz-gobeyond-desafio-02/raw/master/assets/images/screenshot-desktop.png",
           link: "https://github.com/juslenelobeu/corebiz-gobeyond-desafio-02",
           title: "Desafio 02 - Go Beyond | Corebiz",
+        },
+        {
+          image: "https://raw.githubusercontent.com/juslenelobeu/corebiz-gobeyond-desafio-03/master/screenshot.jpeg",
+          link: "https://github.com/juslenelobeu/corebiz-gobeyond-desafio-03",
+          title: "Desafio 03 - Go Beyond | Corebiz",
+        },
+        {
+          image: "https://raw.githubusercontent.com/juslenelobeu/corebiz-gobeyond-desafio-final/master/screenshot-desktop.png",
+          link: "https://github.com/juslenelobeu/corebiz-gobeyond-desafio-final",
+          title: "Desafio Final - Go Beyond | Corebiz",
         }
       ],
     },
